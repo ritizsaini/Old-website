@@ -154,12 +154,12 @@ iframe {
 /* Format the nav  ---------------------------------------------------------- */
 nav {
   padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #20364c;
-  font-weight: 500;
+  color: #061b2f;
+  font-weight: 700;
 }
 
 .nav .montserrat:hover,
@@ -169,7 +169,7 @@ nav {
 .navbar-inverse .navbar-nav>li>a:focus-within,
 .navbar-inverse .navbar-nav>li>a:focus {
   background: white !important;
-  border-radius: 1px;
+  border-radius: 0.5px;
   color: #20364c !important;
 }
 
@@ -220,7 +220,7 @@ nav {
 
 @media (max-width: 767px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
-    color: darkslategray !important;
+    color: rgb(7, 78, 78) !important;
   }
 }
 
@@ -229,7 +229,7 @@ nav {
 }
 
 .navbar-brand {
-  font-size: 2.15rem !important;
+  font-size: 2.5rem !important;
   font-weight: 500;
   color: white !important;
 }
@@ -249,7 +249,7 @@ nav {
 
 .active {
   /* background: white; */
-  border-radius: 2px;
+  border-radius: 1px;
 }
 
 .navbar .dropdown-menu {
@@ -334,7 +334,7 @@ h3:after {
 
 /* Format the footer ---------------------------------------------------------- */
 footer {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 /* Format the social-professional network icons ------------------------------ */
@@ -348,11 +348,11 @@ footer {
 }
 
 .social-icons li a {
-  color: #1585cf;
+  color: #0f2636;
 }
 
 .social-icons li a:hover {
-  opacity: .8;
+  opacity: .7;
   text-decoration: none !important;
 }
 
